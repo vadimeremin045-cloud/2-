@@ -1,0 +1,4 @@
+git checkout -b main_router
+git add server.js package.json .gitignore answer.txt
+git commit -m "Add main router task solution"
+git push -u origin main_router
