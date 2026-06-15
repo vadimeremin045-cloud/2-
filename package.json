@@ -1,13 +1,16 @@
 {
-  "name": "main-router-task",
+  "name": "main-router-server",
   "version": "1.0.0",
   "description": "Node.js server for static and dynamic JSON routes",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "check": "node --check server.js"
+    "start": "node server.js"
   },
-  "engines": {
-    "node": ">=18"
-  }
+  "keywords": [
+    "nodejs",
+    "http",
+    "router"
+  ],
+  "author": "",
+  "license": "ISC"
 }
