@@ -1,4 +1,4 @@
-node_modules/
-.env
-npm-debug.log*
-.DS_Store
+git checkout -b main_router
+git add server.js package.json .gitignore answer.txt routes git_commands.txt
+git commit -m "Refactor routes to Express"
+git push -u origin main_router

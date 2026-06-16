@@ -1,4 +1,19 @@
-git checkout -b main_router
-git add server.js package.json .gitignore answer.txt routes git_commands.txt
-git commit -m "Refactor routes to Express"
-git push -u origin main_router
+{
+  "name": "main-router-server",
+  "version": "1.0.0",
+  "description": "Express server for static and dynamic JSON routes",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "router"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
